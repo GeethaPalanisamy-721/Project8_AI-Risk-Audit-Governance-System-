@@ -50,42 +50,43 @@ API Layer → request handling
 
 This ensures modularity, scalability, and maintainability.
 
-Database Schema
-Table: ai_decisions
+## Database Schema
+### Table: ai_decisions
 
-id
+* id
 
-input_text
+* input_text
 
-predicted_label
+* predicted_label
 
-confidence_score
+* confidence_score
 
-model_version
+* model_version
 
-created_at
+* created_at
 
-Table: decision_reviews
+### Table: decision_reviews
 
-id
+* id
 
-decision_id (Foreign Key)
+* decision_id (Foreign Key)
 
-reviewer_name
+* reviewer_name
 
-overridden_label
+* overridden_label
 
-comments
+* comments
 
-reviewed_at
+* reviewed_at
 
 AI decisions are never overwritten.
 Human reviews are stored separately to preserve audit history.
 
-API Endpoints
-Create Decision
+## API Endpoints
 
-POST /decision
+### Create Decision
+
+#### POST /decision
 
 Request:
 {
@@ -100,9 +101,9 @@ Response:
 "model_version": "v3.0"
 }
 
-Review Decision
+### Review Decision
 
-POST /decision/{decision_id}/review
+#### POST /decision/{decision_id}/review
 
 Request:
 {
