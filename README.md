@@ -115,36 +115,40 @@ Request:
 
 Returns 404 if decision does not exist.
 
-How To Run Locally
+## How To Run Locally
 
-Create virtual environment
+1. Create virtual environment
 
-Activate environment
+2. Activate environment
 
-Install dependencies
+3. Install dependencies
+   
 pip install -r requirements.txt
 
-Create MySQL database
+4. Create MySQL database
+
 CREATE DATABASE ai_audit_db;
 
-Run server
+5. Run server
+   
 uvicorn app.main:app --reload
 
-Open
+6.Open
+
 http://127.0.0.1:8000/docs
 
-Future Improvements
+## Future Improvements
 
-Replace rule engine with trained ML model
+* Replace rule engine with trained ML model
 
-Add authentication & role-based access
+* Add authentication & role-based access
 
-Integrate Alembic for schema migrations
+* Integrate Alembic for schema migrations
 
-Add monitoring & metrics
+* Add monitoring & metrics
 
-Containerize with Docker
+* Containerize with Docker
 
-Author
+## Author
 
 Backend-focused AI governance project demonstrating production-ready architecture principles.
