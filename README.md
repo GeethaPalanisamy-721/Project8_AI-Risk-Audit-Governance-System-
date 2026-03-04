@@ -25,21 +25,21 @@ AI-based risk prediction endpoint
 
 * Clean, scalable folder structure
 
-Tech Stack
+## Tech Stack
 
-FastAPI
+* FastAPI
 
-SQLAlchemy
+* SQLAlchemy
 
-MySQL
+* MySQL
 
-Pydantic
+* Pydantic
 
-Structured Logging (JSON format)
+* Structured Logging (JSON format)
 
-Python 3.11
+* Python 3.11
 
-Architecture Design
+## Architecture Design
 
 The system follows a layered backend structure:
 
