@@ -11,19 +11,19 @@ The focus is on backend architecture, audit compliance, structured logging, and 
 
 AI-based risk prediction endpoint
 
-Confidence scoring with model version tracking
+* Confidence scoring with model version tracking
 
-MySQL persistence of all decisions
+* MySQL persistence of all decisions
 
-Separate human review table (no overwrite of AI output)
+* Separate human review table (no overwrite of AI output)
 
-Structured JSON logging
+* Structured JSON logging
 
-Proper service-layer architecture
+* Proper service-layer architecture
 
-Basic error handling (404 for missing decisions)
+* Basic error handling (404 for missing decisions)
 
-Clean, scalable folder structure
+* Clean, scalable folder structure
 
 Tech Stack
 
