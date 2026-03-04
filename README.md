@@ -1,5 +1,5 @@
-AI Decision Audit & Logging System
-Overview
+# AI Decision Audit & Logging System
+## Overview
 
 This project is a production-style backend system built using FastAPI and MySQL that simulates an AI risk classification engine with full audit traceability.
 
@@ -7,7 +7,7 @@ The system demonstrates how AI decisions can be logged, reviewed, and governed u
 
 The focus is on backend architecture, audit compliance, structured logging, and clean separation of concerns.
 
-Key Features
+## Key Features
 
 AI-based risk prediction endpoint
 
